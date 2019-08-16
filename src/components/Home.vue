@@ -17,10 +17,9 @@
           }
         </code>
       </div>
-      <div class="headline">Here's the latest copy of my <a href="">Résumé</a></div>
-      <div class="headline">You can reach me at <a href="">keloysiusmak@gmail.com</a>
-        <div class="alert">Currently looking for <strong>Spring & Summer 2020</strong> Internships!</div>
-      </div>
+      <div class="alert">Currently looking for <strong>Spring & Summer 2020</strong> Internships!</div>
+      <div class="headline">Here's the latest copy of my <a href="https://www.dropbox.com/s/slgiosooteb2g1m/R%C3%A9sum%C3%A9.pdf?dl=0" target="_blank">Résumé</a></div>
+      <div class="headline">You can reach me at <a href="mailto:keloysiusmak@gmail.com">keloysiusmak@gmail.com</a></div>
       <div class="feature">
         Work Experience
       </div>
@@ -29,7 +28,8 @@
           <img src="../assets/img/govtech.png" />
         </div>
         <div class="writeup">
-          <div class="date"><span class="highlight">Currently here!</span><br/><i>Singapore</i>, Fall 2019</div>
+          <div class="highlight">Currently here!</div>
+          <div class="date"><i>Singapore</i>, Fall 2019</div>
           <div class="title">GovTech</div>
           <div class="position">Cybersecurity Intern</div>
           <ul>
@@ -55,7 +55,7 @@
             <li>Created internal tools for endpoint load monitoring and alert triggering for 40 million daily messages</li>
             <li>Built tools to speed up and assist QA team for publishing and consuming high volumes of Kafka messages</li>
           </ul>
-          <div class="article">Featured Article: <a href="https://medium.com/@keloysiusmak/the-importance-of-people-b914f4289f6a" target="_blank">The Importance of People</a></div>
+          <div class="article">Medium Stories: <a href="https://medium.com/@keloysiusmak/the-importance-of-people-b914f4289f6a" target="_blank">The Importance of People</a></div>
           <div class="tag-wrapper">
             <div class="tag"><code>ELK</code></div>
             <div class="tag"><code>Golang</code></div>
@@ -138,10 +138,11 @@ div.json-wrapper {
   padding: 20px;
   margin: 40px 0;
   overflow-x: scroll;
+  white-space: nowrap;
 }
 div.json-wrapper code {
   color: #FFF;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 div.json-wrapper code a {
   color: #FFF;
@@ -151,10 +152,11 @@ div.json-wrapper ul {
   list-style-type: none;
 }
 div.wrapper {
-  width: 100%;
+  width: calc(100% - 40px);
   max-width: 800px;
   text-align: left;
   margin: 20px;
+  padding: 0 20px;
 }
 div.feature {
   text-align: left;
@@ -166,6 +168,8 @@ div.feature {
 div.hero {
   font-size: 4rem;
   color: #2c3e50;
+  line-height: 4.8rem;
+  margin: 5px 0;
 }
 div.headline strong {
   color: #444;
@@ -185,9 +189,15 @@ div.listing {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
+  width: calc(100% - 0px);
 }
 div.listing:last-of-type {
   border-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+  div.listing .img-wrapper {
+    display: none;
+  }
 }
 div.listing .img-wrapper {
   width: 120px;
@@ -197,17 +207,20 @@ div.listing .img-wrapper img{
   width: 100%;
 }
 div.listing .writeup {
-  display: inline-table;
 }
 div.listing .writeup ul {
   list-style-type: circle;
 }
 div.listing .writeup .date {
-  float: right;
-  text-align: right;
 }
-div.listing .writeup .date .highlight {
-  color: #71a6ea;
+div.listing .writeup .highlight {
+  background-color: #71a6ea;
+  color: #fff;
+  padding: 5px 20px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: inline-block;
 }
 div.listing .writeup .title {
   font-weight: bold;
@@ -225,7 +238,8 @@ div.listing .writeup .article a {
   text-decoration: none;
 }
 div.listing .writeup .tag-wrapper {
-  margin: 30px 0;
+  margin: 30px 0 10px 0;
+  overflow-x: scroll;
 }
 div.listing .writeup .tag-wrapper .tag {
   border-radius: 5px;
@@ -233,7 +247,7 @@ div.listing .writeup .tag-wrapper .tag {
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
-  margin: 0 5px;
+  margin: 0px 10px 10px 0;
   width: auto;
 }
 div.listing .writeup .tag-wrapper .tag:first-of-type {
@@ -252,6 +266,6 @@ div.alert {
   font-size: 0.8rem;
   background-color: #f4f4f4;
   display: inline-block;
-  margin-left: 10px;
+  margin: 0 0 10px 0;
 }
 </style>
