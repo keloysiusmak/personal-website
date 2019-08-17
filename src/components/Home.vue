@@ -9,10 +9,10 @@
           $ cat profile.json</br></br>
           {
           <ul>
-            <li>"github": <a href="github.com/keloysiusmak">https://github.com/keloysiusmak</a>,</li>
-            <li>"linkedin": <a href="linkedin.com/in/keloysiusmak">https://linkedin.com/keloysiusmak</a>,</li>
-            <li>"medium": <a href="medium.com/@keloysiusmak">https://medium.com/keloysiusmak</a>,</li>
-            <li>"twitter": <a href="twitter.com/keloysius">https://twitter.com/keloysius</a></li>
+            <li>"github": <a href="https://github.com/keloysiusmak" target="_blank">https://github.com/keloysiusmak</a>,</li>
+            <li>"linkedin": <a href="https://linkedin.com/in/keloysiusmak" target="_blank">https://linkedin.com/keloysiusmak</a>,</li>
+            <li>"medium": <a href="https://medium.com/@keloysiusmak" target="_blank">https://medium.com/keloysiusmak</a>,</li>
+            <li>"twitter": <a href="https://twitter.com/keloysius" target="_blank">https://twitter.com/keloysius</a></li>
           </ul>
           }
         </code>
