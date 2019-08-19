@@ -31,13 +31,13 @@
           <div class="highlight">Currently here!</div>
           <div class="date"><i>Singapore</i>, Fall 2019</div>
           <div class="title">GovTech</div>
-          <div class="position">Cybersecurity Intern</div>
+          <div class="position">Software Engineering Intern</div>
           <ul>
-            <li>Implemented infrastructure to facilitate automated threat hunting based on the MITRE ATT&CK framework</li>
-            <li>Developed and trained ML models to facilitate DDoS detection through log analysis</li>
+            <li>Setup log analysis infrastructure based on the MITRE ATT&CK framework for threat hunting platform with ELK and Kubernetes</li>
           </ul>
           <div class="tag-wrapper">
-            <div class="tag"><code>PySpark</code></div>
+            <div class="tag"><code>Docker</code></div>
+            <div class="tag"><code>ELK</code></div>
             <div class="tag"><code>Kubernetes</code></div>
           </div>
         </div>
