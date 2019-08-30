@@ -18,7 +18,7 @@
         </code>
       </div>
       <div class="alert">Currently looking for <strong>Spring & Summer 2020</strong> Internships!</div>
-      <div class="headline">Here's the latest copy of my <a href="https://www.dropbox.com/s/slgiosooteb2g1m/R%C3%A9sum%C3%A9.pdf?dl=0" target="_blank">Résumé</a></div>
+      <div class="headline">Here's the latest copy of my <a href="https://www.dropbox.com/s/hvj177vi1dodr44/R%C3%A9sum%C3%A9.pdf?dl=0" target="_blank">Résumé</a></div>
       <div class="headline">You can reach me at <a href="mailto:keloysiusmak@gmail.com">keloysiusmak@gmail.com</a></div>
       <div class="feature">
         Work Experience
