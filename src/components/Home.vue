@@ -33,12 +33,15 @@
           <div class="title">GovTech</div>
           <div class="position">Software Engineering Intern</div>
           <ul>
-            <li>Setup log analysis infrastructure based on the MITRE ATT&CK framework for threat hunting platform with ELK and Kubernetes</li>
+            <li>Setup Elasticsearch, Logstash and Kibana (ELK) with Kubernetes on bare-metal</li>
+            <li>Optimized binaries for threat hunting platform</li>
+            <li>Setup Ubuntu Server and local VCS with Gitlab for threat hunting platform</li>
           </ul>
           <div class="tag-wrapper">
             <div class="tag"><code>Docker</code></div>
             <div class="tag"><code>ELK</code></div>
             <div class="tag"><code>Kubernetes</code></div>
+            <div class="tag"><code>Go</code></div>
           </div>
         </div>
       </div>
@@ -52,13 +55,13 @@
           <div class="position">Software Engineering Intern</div>
           <ul>
             <li>Optimized and improved microservices to improve latency</li>
-            <li>Created internal tools for endpoint load monitoring and alert triggering for 40 million daily messages</li>
+            <li>Created internal tools for endpoint load monitoring with InfluxDb and Chronograf and alert triggering for 40 million daily messages</li>
             <li>Built tools to speed up and assist QA team for publishing and consuming high volumes of Kafka messages</li>
           </ul>
           <div class="article">Medium Stories: <a href="https://medium.com/@keloysiusmak/the-importance-of-people-b914f4289f6a" target="_blank">The Importance of People</a></div>
           <div class="tag-wrapper">
             <div class="tag"><code>ELK</code></div>
-            <div class="tag"><code>Golang</code></div>
+            <div class="tag"><code>Go</code></div>
             <div class="tag"><code>Java</code></div>
             <div class="tag"><code>Kafka</code></div>
             <div class="tag"><code>TICK</code></div>
@@ -86,7 +89,7 @@
           </div>
         </div>
       </div>
-      <div class="listing">
+      <div class="listing last">
         <div class="img-wrapper">
           <img src="../assets/img/nuh.jpeg" />
         </div>
@@ -107,6 +110,52 @@
           </div>
         </div>
       </div>
+      <div class="feature">
+        Skills & Coursework
+      </div>
+      <div class="skills">
+        <div class="skill-column">
+          <div class="skill-category">
+            <div class="title">Programming</div>
+            <div class="writeup"><i>(Experienced)</i> Python, Javascript, Java</div>
+            <div class="writeup"><i>(Familiar)</i> Swift, PHP, C/C++, Go</div>
+          </div>
+          <div class="skill-category">
+            <div class="title">Platforms</div>
+            <div class="writeup"><i>(Experienced)</i> AWS</div>
+            <div class="writeup"><i>(Familiar)</i> Azure, GCP</div>
+          </div>
+          <div class="skill-category">
+            <div class="title">Databases</div>
+            <div class="writeup">MySQL, MSSQL, InfluxDB, MongoDB, DynamoDB</div>
+          </div>
+        </div>
+        <div class="skill-column">
+          <div class="skill-category">
+            <div class="title">Frameworks / Stacks</div>
+            <div class="writeup">ELK, LAMP, ME(A/R/V)N, TICK</div>
+          </div>
+          <div class="skill-category">
+            <div class="title">DevOps</div>
+            <div class="writeup">Chef, Docker, Elasticsearch, Kubernetes, Logstash, Kibana, Travis</div>
+          </div>
+          <div class="skill-category">
+            <div class="title">Tools</div>
+            <div class="writeup">Jest, Kafka, Mocha, Serverless</div>
+          </div>
+        </div>
+        <div class="skill-column">
+          <div class="skill-category">
+            <div class="title">Coursework</div>
+            <div class="writeup">Algorithm Design, Artificial Intelligence, Computer Security, Cryptography Theory, Data Structures, Network Architecture, Software Engineering</div>
+          </div>
+        </div>
+      </div>
+      <div class="feature">
+        Certifications
+      </div>
+      <div class="certification">AWS Certified Cloud Practitioner</div>
+      <div class="certification">Elasticsearch Engineer I / Elasticsearch Engineer II</div>
     </div>
   </div>
 </template>
@@ -139,6 +188,11 @@ div.json-wrapper {
   margin: 40px 0;
   overflow-x: scroll;
   white-space: nowrap;
+}
+div.json-wrapper::-webkit-scrollbar {
+  width: 0 !important;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
 }
 div.json-wrapper code {
   color: #FFF;
@@ -191,7 +245,7 @@ div.listing {
   flex-direction: row;
   width: calc(100% - 0px);
 }
-div.listing:last-of-type {
+div.listing.last {
   border-bottom: 0;
 }
 @media only screen and (max-width: 600px) {
@@ -241,6 +295,11 @@ div.listing .writeup .tag-wrapper {
   margin: 30px 0 10px 0;
   overflow-x: scroll;
 }
+div.listing .writeup .tag-wrapper::-webkit-scrollbar {
+  width: 0 !important;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
 div.listing .writeup .tag-wrapper .tag {
   border-radius: 5px;
   border: 1px solid #ddd;
@@ -267,5 +326,35 @@ div.alert {
   background-color: #f4f4f4;
   display: inline-block;
   margin: 0 0 10px 0;
+}
+div.skills {
+  display: flex;
+}
+div.skills .skill-column {
+  width: 30%;
+  margin-right: 5%;
+}
+@media only screen and (max-width: 800px) {
+  div.skills {
+    display: block;
+  }
+  div.skills .skill-column {
+    width: 100% !important;
+  }
+}
+
+div.skill-category {
+  margin-bottom: 2rem;
+}
+div.skill-category .title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+div.skill-category .writeup {
+  font-size: 1rem;
+}
+div.skill-category .writeup i {
+  font-size: 0.8rem;
+  color: #777;
 }
 </style>
