@@ -25,24 +25,27 @@
       </div>
       <div class="listing">
         <div class="img-wrapper">
-          <img src="../assets/img/govtech.png" />
+          <img src="../assets/img/viki.png" />
         </div>
         <div class="writeup">
           <div class="highlight">Currently here!</div>
-          <div class="date"><i>Singapore</i>, Fall 2019</div>
+          <div class="date"><i>Singapore</i>, October 2019</div>
+          <div class="title">Viki</div>
+          <div class="position">Software Engineering Intern</div>
+        </div>
+      </div>
+      <div class="listing">
+        <div class="img-wrapper">
+          <img src="../assets/img/govtech.png" />
+        </div>
+        <div class="writeup">
+          <div class="date"><i>Singapore</i>, August 2019</div>
           <div class="title">GovTech</div>
           <div class="position">Software Engineering Intern</div>
           <ul>
-            <li>Setup Elasticsearch, Logstash and Kibana (ELK) with Kubernetes on bare-metal</li>
-            <li>Optimized binaries for threat hunting platform</li>
-            <li>Setup Ubuntu Server and local VCS with Gitlab for threat hunting platform</li>
+            <li>Developed and deployed offline threat hunting platform for government agencies based on the MITRE ATT&CK framework </li>
+            <li>Created threat hunting workflows for log ingestion and hypothesis analysis with ELK</li>
           </ul>
-          <div class="tag-wrapper">
-            <div class="tag"><code>Docker</code></div>
-            <div class="tag"><code>ELK</code></div>
-            <div class="tag"><code>Kubernetes</code></div>
-            <div class="tag"><code>Go</code></div>
-          </div>
         </div>
       </div>
       <div class="listing">
@@ -50,7 +53,7 @@
           <img src="../assets/img/ninjavan.png" />
         </div>
         <div class="writeup">
-          <div class="date"><i>Singapore</i>, Summer 2019</div>
+          <div class="date"><i>Singapore</i>, May 2019</div>
           <div class="title">NinjaVan</div>
           <div class="position">Software Engineering Intern</div>
           <ul>
@@ -59,13 +62,6 @@
             <li>Built tools to speed up and assist QA team for publishing and consuming high volumes of Kafka messages</li>
           </ul>
           <div class="article">Medium Stories: <a href="https://medium.com/@keloysiusmak/the-importance-of-people-b914f4289f6a" target="_blank">The Importance of People</a></div>
-          <div class="tag-wrapper">
-            <div class="tag"><code>ELK</code></div>
-            <div class="tag"><code>Go</code></div>
-            <div class="tag"><code>Java</code></div>
-            <div class="tag"><code>Kafka</code></div>
-            <div class="tag"><code>TICK</code></div>
-          </div>
         </div>
       </div>
       <div class="listing">
@@ -73,7 +69,7 @@
           <img src="../assets/img/treatsure.png" />
         </div>
         <div class="writeup">
-          <div class="date"><i>Singapore</i>, Summer 2018</div>
+          <div class="date"><i>Singapore</i>, May 2018</div>
           <div class="title">Treatsure</div>
           <div class="position">Software Engineering Intern</div>
           <ul>
@@ -81,12 +77,6 @@
             <li>Designed and executed the migration from MongoDB to MSSQL in production environments</li>
             <li>Containerized and orchestrated microservices for production to support >1,400 daily active users</li>
           </ul>
-          <div class="tag-wrapper">
-            <div class="tag"><code>Azure</code></div>
-            <div class="tag"><code>Kubernetes</code></div>
-            <div class="tag"><code>NodeJS</code></div>
-            <div class="tag"><code>OAuth</code></div>
-          </div>
         </div>
       </div>
       <div class="listing last">
@@ -94,7 +84,7 @@
           <img src="../assets/img/nuh.jpeg" />
         </div>
         <div class="writeup">
-          <div class="date"><i>Singapore</i>, Fall 2017</div>
+          <div class="date"><i>Singapore</i>, July 2017</div>
           <div class="title">National University Hospital</div>
           <div class="position">Software Engineering Intern</div>
           <ul>
@@ -102,12 +92,6 @@
             <li>Deployed a NLP tool in collaboration with PHD researchers to dissect and augment mortality reports with relevant research</li>
             <li>Built an internal repository for PhD Researchers</li>
           </ul>
-          <div class="tag-wrapper">
-            <div class="tag"><code>Bootstrap</code></div>
-            <div class="tag"><code>LAMP</code></div>
-            <div class="tag"><code>PHP</code></div>
-            <div class="tag"><code>Python</code></div>
-          </div>
         </div>
       </div>
       <div class="feature">
@@ -255,12 +239,18 @@ div.listing.last {
 }
 div.listing .img-wrapper {
   width: 120px;
+  min-width: 120px;
   padding-right: 20px;
+  position: relative;
+  display: inline-block;
 }
-div.listing .img-wrapper img{
-  width: 100%;
+div.listing .img-wrapper img {
+  width: 100px !important;
+  margin: 0;
 }
 div.listing .writeup {
+  position: relative;
+  display: inline-block;
 }
 div.listing .writeup ul {
   list-style-type: circle;
