@@ -38,7 +38,7 @@
           <img src="../assets/img/google.jpg" />
         </div>
         <div class="writeup">
-          <div class="highlight upcoming">Upcoming</div>
+          <div class="highlight">Currently here!</div>
           <div class="date"><i>New York</i>, February 2020</div>
           <div class="title">Google</div>
           <div class="position">Software Engineering Intern</div>
@@ -49,7 +49,6 @@
           <img src="../assets/img/viki.png" />
         </div>
         <div class="writeup">
-          <div class="highlight">Currently here!</div>
           <div class="date"><i>Singapore</i>, October 2019</div>
           <div class="title">Viki</div>
           <div class="position">Software Engineering Intern</div>
