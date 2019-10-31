@@ -278,7 +278,7 @@ div.listing .writeup .highlight {
   display: inline-block;
 }
 div.listing .writeup .highlight.upcoming {
-  background-color: #eeeeee;
+  background-color: #f4f4f4;
   color: #444;
 }
 div.listing .writeup .title {
