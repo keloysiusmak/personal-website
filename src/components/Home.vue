@@ -25,6 +25,16 @@
       </div>
       <div class="listing">
         <div class="img-wrapper">
+          <img src="../assets/img/janestreet.png" />
+        </div>
+        <div class="writeup">
+          <div class="date"><i>Hong Kong</i>, May 2020</div>
+          <div class="title">Jane Street</div>
+          <div class="position"><i>Incoming</i> Software Engineering Intern</div>
+        </div>
+      </div>
+      <div class="listing">
+        <div class="img-wrapper">
           <img src="../assets/img/viki.png" />
         </div>
         <div class="writeup">
