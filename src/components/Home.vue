@@ -6,7 +6,7 @@
       <div class="headline">I am a Computer Science student at<br/>the National University of Singapore with a<br/>passion for <strong>solving real-world problems</strong> with technology.</div>
       <div class="json-wrapper">
         <code>
-          $ cat profile.json</br></br>
+          $ cat profile.json<br><br>
           {
           <ul>
             <li>"github": <a href="https://github.com/keloysiusmak" target="_blank">https://github.com/keloysiusmak</a>,</li>
@@ -17,7 +17,7 @@
           }
         </code>
       </div>
-      <div class="alert">Currently looking for <strong>Spring & Summer 2020</strong> Internships!</div>
+      <div class="alert">Currently looking for <strong>Spring 2020</strong> Internships!</div>
       <div class="headline">Here's the latest copy of my <a href="https://www.dropbox.com/s/hvj177vi1dodr44/R%C3%A9sum%C3%A9.pdf?dl=0" target="_blank">Résumé</a></div>
       <div class="headline">You can reach me at <a href="mailto:keloysiusmak@gmail.com">keloysiusmak@gmail.com</a></div>
       <div class="feature">
@@ -28,9 +28,10 @@
           <img src="../assets/img/janestreet.jpg" />
         </div>
         <div class="writeup">
+          <div class="highlight upcoming">Upcoming</div>
           <div class="date"><i>Hong Kong</i>, May 2020</div>
           <div class="title">Jane Street</div>
-          <div class="position"><i>Incoming</i> Software Engineering Intern</div>
+          <div class="position">Software Engineering Intern</div>
         </div>
       </div>
       <div class="listing">
@@ -111,8 +112,8 @@
         <div class="skill-column">
           <div class="skill-category">
             <div class="title">Programming</div>
-            <div class="writeup"><i>(Experienced)</i> Python, Javascript, Java</div>
-            <div class="writeup"><i>(Familiar)</i> Swift, PHP, C/C++, Go</div>
+            <div class="writeup"><i>(Experienced)</i> Java, Javascript, Python</div>
+            <div class="writeup"><i>(Familiar)</i> C/C++, Go, PHP, Swift</div>
           </div>
           <div class="skill-category">
             <div class="title">Platforms</div>
@@ -121,7 +122,7 @@
           </div>
           <div class="skill-category">
             <div class="title">Databases</div>
-            <div class="writeup">MySQL, MSSQL, InfluxDB, MongoDB, DynamoDB</div>
+            <div class="writeup">DynamoDB, InfluxDB, MongoDB, MSSQL, MySQL</div>
           </div>
         </div>
         <div class="skill-column">
@@ -131,7 +132,7 @@
           </div>
           <div class="skill-category">
             <div class="title">DevOps</div>
-            <div class="writeup">Chef, Docker, Elasticsearch, Kubernetes, Logstash, Kibana, Travis</div>
+            <div class="writeup">Chef, Docker, Elasticsearch, Kubernetes, Logstash, Kibana, SignalFX, Travis</div>
           </div>
           <div class="skill-category">
             <div class="title">Tools</div>
@@ -275,6 +276,10 @@ div.listing .writeup .highlight {
   border-radius: 5px;
   margin: 5px 0;
   display: inline-block;
+}
+div.listing .writeup .highlight.upcoming {
+  background-color: #eeeeee;
+  color: #444;
 }
 div.listing .writeup .title {
   font-weight: bold;
