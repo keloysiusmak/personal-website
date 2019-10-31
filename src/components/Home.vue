@@ -25,7 +25,7 @@
       </div>
       <div class="listing">
         <div class="img-wrapper">
-          <img src="../assets/img/janestreet.png" />
+          <img src="../assets/img/janestreet.jpg" />
         </div>
         <div class="writeup">
           <div class="date"><i>Hong Kong</i>, May 2020</div>
