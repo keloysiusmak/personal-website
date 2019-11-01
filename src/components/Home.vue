@@ -36,6 +36,17 @@
       </div>
       <div class="listing">
         <div class="img-wrapper">
+          <img src="../assets/img/google.jpg" />
+        </div>
+        <div class="writeup">
+          <div class="highlight upcoming">Upcoming</div>
+          <div class="date"><i>New York</i>, February 2020</div>
+          <div class="title">Google</div>
+          <div class="position">Software Engineering Intern</div>
+        </div>
+      </div>
+      <div class="listing">
+        <div class="img-wrapper">
           <img src="../assets/img/viki.png" />
         </div>
         <div class="writeup">
