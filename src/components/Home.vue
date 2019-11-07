@@ -54,6 +54,9 @@
           <div class="date"><i>Singapore</i>, October 2019</div>
           <div class="title">Viki</div>
           <div class="position">Software Engineering Intern</div>
+          <ul>
+            <li>Implemented metrics for monitoring event-based architectures with SignalFX and Ruby</li>
+          </ul>
         </div>
       </div>
       <div class="listing">
