@@ -124,7 +124,7 @@
           <div class="skill-category">
             <div class="title">Programming</div>
             <div class="writeup"><i>(Experienced)</i> Java, Javascript, Python</div>
-            <div class="writeup"><i>(Familiar)</i> C/C++, Go, PHP, Swift</div>
+            <div class="writeup"><i>(Familiar)</i> C/C++, Go, PHP, Ruby, Swift</div>
           </div>
           <div class="skill-category">
             <div class="title">Platforms</div>
