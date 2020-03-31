@@ -53,7 +53,8 @@
           <div class="title">Viki</div>
           <div class="position">Software Engineering Intern</div>
           <ul>
-            <li>Implemented metrics for monitoring event-based architectures with SignalFX and Ruby</li>
+            <li>Designed metrics for monitoring event-based architectures with SignalFX and Ruby</li>
+            <li>Implemented subscription flow for new users</li>
           </ul>
         </div>
       </div>
@@ -124,7 +125,7 @@
         <div class="skill-column">
           <div class="skill-category">
             <div class="title">Programming</div>
-            <div class="writeup"><i>(Experienced)</i> Java, Javascript, Python</div>
+            <div class="writeup"><i>(Experienced)</i> Java, Javascript, Python, OCaml, Typescript</div>
             <div class="writeup"><i>(Familiar)</i> C/C++, Go, PHP, Ruby, Swift</div>
           </div>
           <div class="skill-category">
@@ -144,11 +145,11 @@
           </div>
           <div class="skill-category">
             <div class="title">DevOps</div>
-            <div class="writeup">Chef, Docker, Elasticsearch, Kubernetes, Logstash, Kibana, SignalFX, Travis</div>
+            <div class="writeup">Chef, Docker, Elasticsearch, Jenkins, Kubernetes, Logstash, Kibana, SignalFX, Travis</div>
           </div>
           <div class="skill-category">
             <div class="title">Tools</div>
-            <div class="writeup">Jest, Kafka, Mocha, Serverless</div>
+            <div class="writeup">Git, Jasmine, Jest, Kafka, Mercurial, Mocha, RxJS, Sass/Scss/Stylus, Serverless</div>
           </div>
         </div>
         <div class="skill-column">
