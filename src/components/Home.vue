@@ -27,8 +27,8 @@
           <img src="../assets/img/janestreet.jpg" />
         </div>
         <div class="writeup">
-          <div class="highlight upcoming">Upcoming</div>
-          <div class="date"><i>Hong Kong</i>, May 2020</div>
+          <div class="highlight">Currently here!</div>
+          <div class="date"><i>Hong Kong</i>, June 2020</div>
           <div class="title">Jane Street</div>
           <div class="position">Software Engineering Intern</div>
         </div>
@@ -38,7 +38,6 @@
           <img src="../assets/img/google.jpg" />
         </div>
         <div class="writeup">
-          <div class="highlight">Currently here!</div>
           <div class="date"><i>New York</i>, February 2020</div>
           <div class="title">Google</div>
           <div class="position">Software Engineering Intern</div>
