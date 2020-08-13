@@ -27,6 +27,17 @@
           <img src="../assets/img/janestreet.jpg" />
         </div>
         <div class="writeup">
+          <div class="highlight upcoming">Incoming</div>
+          <div class="date"><i>Hong Kong</i>, March 2021</div>
+          <div class="title">Jane Street</div>
+          <div class="position">Software Engineer</div>
+        </div>
+      </div>
+      <div class="listing">
+        <div class="img-wrapper">
+          <img src="../assets/img/janestreet.jpg" />
+        </div>
+        <div class="writeup">
           <div class="highlight">Currently here!</div>
           <div class="date"><i>Hong Kong</i>, June 2020</div>
           <div class="title">Jane Street</div>
